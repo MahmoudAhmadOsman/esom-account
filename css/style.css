@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fff
+}
+
+.account_header {
+
+    width: auto;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.account_header h2 {
+    background-color: #ccc !important;
+    padding: 10px 0px 10px 10px;
+
+}
+
+.customer_profile {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: block;
+    border-bottom: 2px solid #ccc;
+}
+
+.customer_profile img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.customer_profile h3 {
+    margin-top: 33px;
+    margin-left: -44px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+/*Start of input section*/
+
+.form_input {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.form_input input[type="text"],
+.current_address input[type="text"] {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+/*Start of input section*/

@@ -1,0 +1,11 @@
+{
+  "name": "accounts",
+  "version": "1.0.0",
+  "description": "esom bank account profile set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahmoud Osman",
+  "license": "MIT"
+}
