@@ -17,6 +17,7 @@ body {
 .account_header h2 {
   background-color: #ccc !important;
   padding: 10px 0px 10px 10px;
+  color: #5d5757;
 }
 
 .customer_profile {
@@ -40,14 +41,33 @@ body {
   margin-top: 33px;
   margin-left: -44px;
   font-weight: bold;
-  font-size: 36px;
+  color: #5d5757;
 }
 
-/*Start of input section*/
+.customer_profile .form-group::before {
+  content: "$";
+  display: block;
+  float: left;
+  margin: 6px 0px 0px -14px;
+  font-weight: bold;
+}
+
+.customer_profile .btn {
+  width: 45px;
+  height: 30px;
+  font-weight: bold;
+}
+
+/*Start of Customer Details*/
 .customer_details {
   width: auto;
   height: auto;
   position: relative;
+  margin-top: 40px;
+}
+
+.customer_details h3 {
+  color: #5d5757;
 }
 
 .customer_details label,
@@ -63,12 +83,17 @@ body {
   color: #716969;
 }
 
-/*Start of input section*/
+/*Start of Customer Details*/
+/* Start of current street style*/
 .current_address {
   width: auto;
   height: auto;
   position: relative;
   margin-top: 40px;
+}
+
+.current_address h3 {
+  color: #5d5757;
 }
 
 .current_address input[type="text"] {
@@ -81,6 +106,7 @@ body {
   color: #777373;
 }
 
+/*Start of account type*/
 .account_type {
   width: auto;
   height: auto;
@@ -88,15 +114,19 @@ body {
   margin-top: 40px;
 }
 
+.account_type b {
+  color: #595c5f !important;
+  font-size: 19px;
+  margin-left: 11px;
+}
+
 .account_type h3 {
-  color: inherit;
+  color: #5d5757;
 }
 
 .account_type input[type="radio"] {
   height: 20px;
   width: 20px;
-  border: 2px solid #f00;
-  background-color: #f00;
 }
 
 .account_type .btn-outline-info {
@@ -105,5 +135,33 @@ body {
   font-weight: bold;
   border-radius: 50px;
   text-transform: uppercase;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
 }
+
+.account_type .btn-outline-info:hover {
+  color: white;
+  border-radius: 50px;
+  border: 1px solid #3edcf5;
+  background-color: #169eb3;
+  min-width: 22%;
+}
+
+/* End of account type */
+/*Start of security question section */
+.security_questions {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-top: 40px;
+}
+
+.security_questions h3 {
+  color: #5d5757;
+}
+
+/*End of security question section*/
 /*# sourceMappingURL=style.css.map */

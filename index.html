@@ -1,5 +1,6 @@
 <!-- =========
- => Designer & Developer: Mahmoud Osman
+ => Designed & Developed By: Mahmoud Osman
+ => Website URL: https://www.netsansoftware.com/
 ========= -->
 <!DOCTYPE html>
 <html lang="en">
@@ -8,12 +9,13 @@
     <meta charset="UTF-8">
     <title>eSom Bank</title>
     <link rel="icon" type="image/jpg" href="https://www.netsansoftware.com/images/netsansoftware_favicon.jpg">
-
     <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!--  Start of account header -->
     <section class="account_header">
         <div class="container">
             <div class="row">
@@ -30,12 +32,23 @@
                 <div class="col-lg-2">
                     <img class="img-fluid" src="images/mahmoud.jpg" alt="customer image">
                 </div>
-                <div class="collg-6">
+                <div class="col-lg-6">
                     <h3>Customer Name</h3>
+                    <ul class="list-unstyled">
+                        <li> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span> mahmoud@yahoo.com</span> <a href="#" class="btn btn-secondary btn-sm">Edit</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> <span> 802-687-1457 <a href="#" class="btn btn-secondary btn-sm">Edit</a></span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h3>Balance</h3>
+                    <div class="form-group">
+                        <input id="balance" type="text" class="form-control form-control-md" value="255,655">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--  End of account header -->
     <!-- Start of Input Form section -->
     <section class="customer_details">
         <div class="container">
@@ -115,6 +128,27 @@
         </div>
     </section>
     <!-- End of current address -->
+    <!-- Start of security question section -->
+    <section class="security_questions">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <h3>Select Security Question</h3>
+                        <select name="question" id="question" class="form-control">
+                            <option value="disabled">
+                                -- Select Security Question -- </option>
+                            <option value="Q2">What are your daily news checks?</option>
+                            <option value="Q3">What was the color of your first car?</option>
+                            <option value="Q4">What was your first school?</option>
+                            <option value="Q5">What is your pet's name?</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of security question section -->
     <!-- Start of account type -->
     <section class="account_type">
         <div class="container">
@@ -139,13 +173,11 @@
                     </div>
                 </div>
             </div>
-
-<div class="row">
-    <div class="col-md-12">
-        <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
-    </div>
-</div>
-
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
+                </div>
+            </div>
     </section>
     <!-- End of account type -->
     <link rel="stylesheet" href="bower_components/jquery/dist/jquery.js">
