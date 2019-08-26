@@ -48,6 +48,10 @@ body {
         font-weight: bold;
         color: $h3_color;
     }
+    input{
+        font-weight: bold;
+        color: #777373;
+    }
 
 .form-group::before { 
         content: "$";
@@ -155,7 +159,7 @@ input[type="radio"]{
    
 }
 .btn-outline-info{
-    min-width: 20%;
+    min-width: 80%;
     margin-top: 20px;
     font-weight: bold;
     border-radius: 50px;
@@ -171,7 +175,7 @@ input[type="radio"]{
         border-radius: 50px;
         border: 1px solid darken( #43ddf5, 1% );;
         background-color: darken( #17a2b8, 1% );
-        min-width: 22%;
+        min-width: 82%;
 
     
     }

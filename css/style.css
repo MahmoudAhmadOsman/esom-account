@@ -44,6 +44,11 @@ body {
   color: #5d5757;
 }
 
+.customer_profile input {
+  font-weight: bold;
+  color: #777373;
+}
+
 .customer_profile .form-group::before {
   content: "$";
   display: block;
@@ -130,7 +135,7 @@ body {
 }
 
 .account_type .btn-outline-info {
-  min-width: 20%;
+  min-width: 80%;
   margin-top: 20px;
   font-weight: bold;
   border-radius: 50px;
@@ -147,7 +152,7 @@ body {
   border-radius: 50px;
   border: 1px solid #3edcf5;
   background-color: #169eb3;
-  min-width: 22%;
+  min-width: 82%;
 }
 
 /* End of account type */

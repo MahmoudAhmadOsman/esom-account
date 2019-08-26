@@ -29,17 +29,17 @@
     <section class="container">
         <div class="customer_profile">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-md-2 col-xs-12">
                     <img class="img-fluid" src="images/mahmoud.jpg" alt="customer image">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 col-xs-12">
                     <h3>Customer Name</h3>
                     <ul class="list-unstyled">
                         <li> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span> mahmoud@yahoo.com</span> <a href="#" class="btn btn-secondary btn-sm">Edit</a></li>
                         <li><i class="fa fa-phone" aria-hidden="true"></i> <span> 802-687-1457 <a href="#" class="btn btn-secondary btn-sm">Edit</a></span></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-2 col-xs-12">
                     <h3>Balance</h3>
                     <div class="form-group">
                         <input id="balance" type="text" class="form-control form-control-md" value="255,655">
@@ -135,7 +135,7 @@
                 <div class="col-md-10">
                     <div class="form-group">
                         <h3>Select Security Question</h3>
-                        <select name="question" id="question" class="form-control">
+                        <select name="question" id="question" class="form-control custom-select-md">
                             <option value="disabled">
                                 -- Select Security Question -- </option>
                             <option value="Q2">What are your daily news checks?</option>
@@ -156,28 +156,23 @@
             <div class="row">
                 <h3>Account Type</h3>
                 <div class="col-md-12">
-                    <div class="form-check">
-                        <label class="form-check-label" for="checking">
-                            <input type="radio" class="form-check-input" name="checking"><b class="text-dark h4">Checking</b>
-                        </label>
+                    <div class="form-check form-check-block">
+                        <input class="form-check-input" type="radio" name="radiooptions" id="saving" value="1">
+                        <label class="form-check-label"><b class="text-dark">Saving</b></label>
                     </div>
-                    <div class="form-check">
-                        <label class="form-check-label" for="saving">
-                            <input type="radio" class="form-check-input " name="saving"><b class="text-dark h4">Saving</b>
-                        </label>
+                    <div class="form-check form-check-block">
+                        <input class="form-check-input" type="radio" name="radiooptions" id="checking" value="2">
+                        <label class="form-check-label"><b class="text-dark">Checking</b></label>
                     </div>
-                    <div class="form-check">
-                        <label class="form-check-label" for="credit card">
-                            <input type="radio" class="form-check-input" name="credit_card"><b class="text-dark h4">Credit Card</b>
-                        </label>
+                    <div class="form-check form-check-block">
+                        <input class="form-check-input" type="radio" name="radiooptions" id="credit" value="3">
+                        <label class="form-check-label"><b class="text-dark">credit Card</b></label>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
-                </div>
-            </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
+                        </div>
+                    </div>
     </section>
     <!-- End of account type -->
     <link rel="stylesheet" href="bower_components/jquery/dist/jquery.js">
