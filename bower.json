@@ -1,0 +1,22 @@
+{
+  "name": "accounts",
+  "description": "esom bank account profile set up",
+  "main": "index.js",
+  "authors": [
+    "Mahmoud Osman"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MahmoudAhmadOsman/eSom-Account",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^5.10.2",
+    "jquery": "3.4.1",
+    "boostrap": "^4.3.1"
+  }
+}

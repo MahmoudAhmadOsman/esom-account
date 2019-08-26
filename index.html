@@ -35,50 +35,43 @@
         </div>
     </section>
     <!-- Start of Input Form section -->
-    <section class="form_input">
+    <section class="customer_details">
         <div class="container">
             <h3>Customer Details</h3>
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="fname" class="form-control form-control-lg" placeholder="First Name">
-                        <label for="fname">First name</label>
-                    </div>
+                    <input type="text" id="fname" class="form-control form-control-lg" placeholder="First Name" value="James">
+                    <label for="fname">First name</label>
                 </div>
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="lname" class="form-control form-control-lg" placeholder="Last Name">
-                        <label for="lname">First name</label>
-                    </div>
+                    <input type="text" id="lname" class="form-control form-control-lg" placeholder="Last Name" value="Owdel">
+                    <label for="lname">First name</label>
                 </div>
             </div> <!-- End of the first row-->
             <!-- Start of the second row -->
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="Date of Birth">
-                        <label for="DOB">DOB</label>
-                    </div>
+                    <!-- <div class="md-form"> -->
+                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Date of Birth" value="6/21/1986">
+                    <label for="DOB">DOB</label>
+                    <!-- </div> -->
                 </div>
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="Social Securiy Number">
-                        <label for="SSN">SSN</label>
-                    </div>
+                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Social Securiy Number" value="487-98-6789">
+                    <label for="SSN">SSN</label>
+                    <!-- </div> -->
                 </div>
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="Email Address">
-                        <label for="email">Email Address</label>
-                    </div>
+                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Email Address" value="example@gmail.com">
+                    <label for="email">Email Address</label>
+                    <!-- </div> -->
                 </div>
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="Phone Number">
-                        <label for="phone">Phone Number</label>
-                    </div>
+                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Phone Number" value="802-978-4578">
+                    <label for="phone">Phone Number</label>
                 </div>
             </div><!-- End of the second row -->
+            <hr>
         </div>
     </section>
     <!-- End of Input Form section -->
@@ -88,48 +81,71 @@
             <h3>Current Address</h3>
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="md-form">
-                        <input type="text" id="fname" class="form-control form-control-lg" placeholder="Street">
-                        <label for="street">Street</label>
-                    </div>
+                    <input type="text" id="fname" class="form-control form-control-lg" placeholder="Street" value="1 Main Street">
+                    <label for="street">Street</label>
                 </div>
                 <div class="col-lg-2">
-                    <div class="md-form">
-                        <input type="text" id="lname" class="form-control form-control-lg" placeholder="Apt #">
-                        <label for="apt">Apt Number</label>
-                    </div>
+                    <input type="text" id="lname" class="form-control form-control-lg" placeholder="Apt #" value="3C">
+                    <label for="apt">Apt Number</label>
                 </div>
             </div> <!-- End of the first row-->
             <!-- Start of the second row -->
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="md-form">
-                        <input type="text" id="city" class="form-control form-control-lg" placeholder="City">
-                        <label for="city">City</label>
-                    </div>
+                    <input type="text" id="city" class="form-control form-control-lg" placeholder="City" value="Colchester">
+                    <label for="city">City</label>
                 </div>
                 <div class="col-lg-2">
                     <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="State">
+                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="State" value="VT">
                         <label for="state">State</label>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="Zip Code">
-                        <label for="zip">Zip Code</label>
-                    </div>
+                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Zip Code" value="05784">
+                    <label for="zip">Zip Code</label>
                 </div>
                 <div class="col-lg-10">
-                    <div class="md-form">
-                        <input type="text" name="occupation" class="form-control form-control-lg" placeholder="Occupation">
-                        <label for="occupation">Occupation</label>
-                    </div>
+                    <input type="text" name="occupation" class="form-control form-control-lg" placeholder="Occupation" value="Accountant">
+                    <label for="occupation">Occupation</label>
                 </div>
             </div><!-- End of the second row -->
         </div>
     </section>
     <!-- End of current address -->
+    <!-- Start of account type -->
+    <section class="account_type">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <h3>Account Type</h3>
+                <div class="col-md-12">
+                    <div class="form-check">
+                        <label class="form-check-label" for="checking">
+                            <input type="radio" class="form-check-input" name="checking"><b class="text-dark h4">Checking</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="saving">
+                            <input type="radio" class="form-check-input " name="saving"><b class="text-dark h4">Saving</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="credit card">
+                            <input type="radio" class="form-check-input" name="credit_card"><b class="text-dark h4">Credit Card</b>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+<div class="row">
+    <div class="col-md-12">
+        <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
+    </div>
+</div>
+
+    </section>
+    <!-- End of account type -->
     <link rel="stylesheet" href="bower_components/jquery/dist/jquery.js">
     <link rel="stylesheet" href="bower_components/boostrap/dist/js/bootstrap.min.js">
 </body>

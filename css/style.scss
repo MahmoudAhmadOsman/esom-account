@@ -1,0 +1,140 @@
+$input_label_color: #777373;
+$input_bg_color: #ccc;
+$input_bg_text_color: #716969;
+
+$current_address_input_bg: #ccc;
+$curr_add_text_color: #716969;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #fff;
+    height: 1500px;;
+  }
+  
+  .account_header {
+  
+    width: auto;
+    height: 50px;
+    margin-bottom: 25px;
+
+    h2{
+        background-color: #ccc !important;
+    padding: 10px 0px 10px 10px;
+    }
+  }
+
+
+
+  .customer_profile {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: block;
+    border-bottom: 2px solid #ccc;
+    margin-top: 40px;
+
+    img {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        display: block;
+
+    }
+
+
+    h3 {
+        margin-top: 33px;
+        margin-left: -44px;
+        font-weight: bold;
+        font-size: 36px;
+    }
+}
+
+
+
+/*Start of input section*/
+
+.customer_details {
+    width: auto;
+    height: auto;
+    position: relative;
+
+    label,
+    .customer_profile label,
+    .current_address label{
+        font-weight: bold;
+        color:$input_label_color;
+    }
+
+
+    input[type="text"],
+    .current_address input[type="text"] {
+        background-color: $input_bg_color;
+        color:$input_bg_text_color;
+    }
+
+}
+
+/*Start of input section*/
+
+
+
+
+// Start of current street style
+
+.current_address{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
+input[type="text"]{
+    background-color: $current_address_input_bg;
+    color: $curr_add_text_color;
+  
+}
+label{
+    font-weight: bold;
+    color: $input_label_color;
+}
+
+}
+
+
+
+//  Start of account type
+.account_type{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
+
+
+h3{
+    color: inherit
+}
+input[type="radio"]{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #f00;
+    background-color: #f00
+}
+.btn-outline-info{
+    min-width: 20%;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-transform: uppercase
+   
+}
+
+
+}
+
+//End of account type
+
+
