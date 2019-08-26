@@ -169,4 +169,21 @@ body {
 }
 
 /*End of security question section*/
+/*Start of footer*/
+.footer {
+  height: 50px;
+  width: auto;
+  margin-top: 200px;
+  background-color: #1d1d1c;
+  position: relative;
+  display: block;
+}
+
+.footer p {
+  color: #5f5c5c;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*end of footer*/
 /*# sourceMappingURL=style.css.map */

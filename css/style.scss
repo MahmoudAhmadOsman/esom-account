@@ -4,6 +4,7 @@ $input_bg_text_color: #716969;
 $current_address_input_bg: #ccc;
 $curr_add_text_color: #716969;
 $h3_color: #5d5757;
+$footer_bg: #1d1d1c;
 
 *{
     padding: 0px;
@@ -205,3 +206,22 @@ input[type="radio"]{
 
 
 /*End of security question section*/
+
+
+
+/*Start of footer*/
+.footer{
+    height: 50px;
+    width: auto;
+    margin-top: 200px;
+    background-color: $footer_bg;
+    position: relative;
+    display: block;
+
+p{
+    color: #5f5c5c;
+    line-height: 50px;
+    text-align: center
+}
+}
+/*end of footer*/
