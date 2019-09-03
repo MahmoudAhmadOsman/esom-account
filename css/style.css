@@ -1,189 +1,189 @@
 * {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-  background-color: #fff;
-  height: 1500px;
+    background-color: #fff;
+    height: 1500px;
 }
 
 .account_header {
-  width: auto;
-  height: 50px;
-  margin-bottom: 25px;
+    width: auto;
+    height: 50px;
+    margin-bottom: 25px;
 }
 
 .account_header h2 {
-  background-color: #ccc !important;
-  padding: 10px 0px 10px 10px;
-  color: #5d5757;
+    background-color: #ccc !important;
+    padding: 10px 0px 10px 10px;
+    color: #5d5757;
 }
 
 .customer_profile {
-  width: auto;
-  height: auto;
-  position: relative;
-  display: block;
-  border-bottom: 2px solid #ccc;
-  margin-top: 40px;
+    width: auto;
+    height: auto;
+    position: relative;
+    display: block;
+    border-bottom: 2px solid #ccc;
+    margin-top: 40px;
 }
 
 .customer_profile img {
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-  display: block;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
 }
 
 .customer_profile h3 {
-  margin-top: 33px;
-  margin-left: -44px;
-  font-weight: bold;
-  color: #5d5757;
+    margin-top: 33px;
+    margin-left: -44px;
+    font-weight: bold;
+    color: #5d5757;
 }
 
 .customer_profile input {
-  font-weight: bold;
-  color: #777373;
+    font-weight: bold;
+    color: #777373;
 }
 
 .customer_profile .form-group::before {
-  content: "$";
-  display: block;
-  float: left;
-  margin: 6px 0px 0px -14px;
-  font-weight: bold;
+    content: "$";
+    display: block;
+    float: left;
+    margin: 6px 0px 0px -14px;
+    font-weight: bold;
 }
 
 .customer_profile .btn {
-  width: 45px;
-  height: 30px;
-  font-weight: bold;
+    width: 45px;
+    height: 30px;
+    font-weight: bold;
 }
 
 /*Start of Customer Details*/
 .customer_details {
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-top: 40px;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
 }
 
 .customer_details h3 {
-  color: #5d5757;
+    color: #5d5757;
 }
 
 .customer_details label,
 .customer_details .customer_profile label,
 .customer_details .current_address label {
-  font-weight: bold;
-  color: #777373;
+    font-weight: bold;
+    color: #777373;
 }
 
 .customer_details input[type="text"],
 .customer_details input[type="email"],
 .customer_details input[type="text"] {
-  background-color: #ccc;
-  color: #716969;
+    background-color: #ccc;
+    color: #716969;
 }
 
 /*Start of Customer Details*/
 /* Start of current street style*/
 .current_address {
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-top: 40px;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
 }
 
 .current_address h3 {
-  color: #5d5757;
+    color: #5d5757;
 }
 
 .current_address input[type="text"] {
-  background-color: #ccc;
-  color: #716969;
+    background-color: #ccc;
+    color: #716969;
 }
 
 .current_address label {
-  font-weight: bold;
-  color: #777373;
+    font-weight: bold;
+    color: #777373;
 }
 
 /*Start of account type*/
 .account_type {
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-top: 40px;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
 }
 
 .account_type b {
-  color: #595c5f !important;
-  font-size: 19px;
-  margin-left: 11px;
+    color: #595c5f !important;
+    font-size: 19px;
+    margin-left: 11px;
 }
 
 .account_type h3 {
-  color: #5d5757;
+    color: #5d5757;
 }
 
 .account_type input[type="radio"] {
-  height: 20px;
-  width: 20px;
+    height: 20px;
+    width: 20px;
 }
 
 .account_type .btn-outline-info {
-  min-width: 80%;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 50px;
-  text-transform: uppercase;
-  transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  -ms-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
+    min-width: 80%;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
 }
 
 .account_type .btn-outline-info:hover {
-  color: white;
-  border-radius: 50px;
-  border: 1px solid #3edcf5;
-  background-color: #169eb3;
-  min-width: 82%;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #3edcf5;
+    background-color: #169eb3;
+    min-width: 82%;
 }
 
 /* End of account type */
 /*Start of security question section */
 .security_questions {
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-top: 40px;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
 }
 
 .security_questions h3 {
-  color: #5d5757;
+    color: #5d5757;
 }
 
 /*End of security question section*/
 /*Start of footer*/
 .footer {
-  height: 50px;
-  width: auto;
-  margin-top: 200px;
-  background-color: #1d1d1c;
-  position: relative;
-  display: block;
+    height: 50px;
+    width: auto;
+    margin-top: 200px;
+    background-color: #1d1d1c;
+    position: relative;
+    display: block;
 }
 
 .footer p {
-  color: #5f5c5c;
-  line-height: 50px;
-  text-align: center;
+    color: #5f5c5c;
+    line-height: 50px;
+    text-align: center;
 }
 
 /*end of footer*/
