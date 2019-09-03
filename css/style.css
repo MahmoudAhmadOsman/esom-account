@@ -83,7 +83,8 @@ body {
 }
 
 .customer_details input[type="text"],
-.customer_details .current_address input[type="text"] {
+.customer_details input[type="email"],
+.customer_details input[type="text"] {
   background-color: #ccc;
   color: #716969;
 }

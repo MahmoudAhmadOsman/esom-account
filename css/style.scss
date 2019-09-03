@@ -97,10 +97,11 @@ body {
         font-weight: bold;
         color:$input_label_color;
     }
-
+    
 
     input[type="text"],
-    .current_address input[type="text"] {
+    input[type="email"],
+     input[type="text"] {
         background-color: $input_bg_color;
         color:$input_bg_text_color;
     }
