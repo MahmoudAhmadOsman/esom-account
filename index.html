@@ -40,8 +40,10 @@
                 <div class="col-md-6 col-xs-12">
                     <h3>Mahmoud Osman</h3>
                     <ul class="list-unstyled">
-                        <li> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span> mahmoud@yahoo.com</span> <a href="#" class="btn btn-secondary btn-sm">Edit</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> <span> 802-687-1457 <a href="#" class="btn btn-secondary btn-sm">Edit</a></span></li>
+                        <li> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span> mahmoud@yahoo.com</span> <a
+                                href="#" class="btn btn-secondary btn-sm">Edit</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> <span> 802-687-1457 <a href="#"
+                                    class="btn btn-secondary btn-sm">Edit</a></span></li>
                     </ul>
                 </div>
                 <div class="col-md-2 col-xs-12">
@@ -55,140 +57,131 @@
     </section>
     <!--  End of account header -->
     <!-- Start of Input Form section -->
-
-
-<form action="process-account.html" method="POST">
-
-    <section class="customer_details">
-        <div class="container">
-            <h3>Customer Details</h3>
-            
-            <div class="row">
-                
-                <div class="col-lg-5">
-                    <input type="text" id="fname" class="form-control form-control-lg" placeholder="First Name ex. James">
-                    <label for="fname">First name</label>
-                </div>
-                <div class="col-lg-5">
-                    <input type="text" id="lname" class="form-control form-control-lg" placeholder="Last Name.  ex. Owdel">
-                    <label for="lname">First name</label>
-                </div>
-            </div> <!-- End of the first row-->
-            <!-- Start of the second row -->
-            <div class="row">
-                <div class="col-lg-5">
-                     
-                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Date of Birth. ex. 6/21/1986">
-                    <label for="DOB">DOB</label>
-                    
-                </div>
-                <div class="col-lg-5">
-                    <input type="text" id="ssn" class="form-control form-control-lg" placeholder="SSN #. ex. 487-98-6789">
-                    <label for="SSN">SSN</label>
-                    <!-- </div> -->
-                </div>
-            </div><!-- End of the second row -->
-            <!-- Start of the third row -->
-            <div class="row">
-                <div class="col-lg-5">
-                    <input type="email" id="email" class="form-control form-control-lg" placeholder="Email Address. ex. example@gmail.com">
-                    <label for="email">Email Address</label>
-                    
-                </div>
-                <div class="col-lg-5">
-                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Phone Number. ex. 802-978-4578">
-                    <label for="phone">Phone Number</label>
-                </div>
-            </div> <!-- End of the third row -->
-            <hr>
-        </div>
-    </section>
-    <!-- End of Input Form section -->
-    <!-- Start of current address -->
-    <section class="current_address">
-        <div class="container">
-            <h3>Current Address</h3>
-            <div class="row">
-                <div class="col-lg-5">
-                    <input type="text" id="fname" class="form-control form-control-lg" placeholder="Street. ex. 1 Main Street">
-                    <label for="street">Street</label>
-                </div>
-                <div class="col-lg-2">
-                    <input type="text" id="lname" class="form-control form-control-lg" placeholder="Apt #. ex. 3C">
-                    <label for="apt">Apt Number</label>
-                </div>
-            </div> <!-- End of the first row-->
-            <!-- Start of the second row -->
-            <div class="row">
-                <div class="col-lg-3">
-                    <input type="text" id="city" class="form-control form-control-lg" placeholder="City. ex. Colchester">
-                    <label for="city">City</label>
-                </div>
-                <div class="col-lg-2">
-                    <div class="md-form">
-                        <input type="text" id="dof" class="form-control form-control-lg" placeholder="State. ex. VT">
-                        <label for="state">State</label>
+    <form action="process-account.html" method="POST">
+        <section class="customer_details">
+            <div class="container">
+                <h3>Customer Details</h3>
+                <div class="row">
+                    <div class="col-lg-5"> <label for="fname">First name</label>
+                        <input type="text" id="fname" class="form-control form-control-lg"
+                            placeholder="First Name ex. James">
                     </div>
-                </div>
-                <div class="col-lg-2">
-                    <input type="text" id="dof" class="form-control form-control-lg" placeholder="Zip Code. ex. 05784">
-                    <label for="zip">Zip Code</label>
-                </div>
-                <div class="col-lg-10">
-                    <input type="text" name="occupation" class="form-control form-control-lg" placeholder="Occupation. ex. Accountant">
-                    <label for="occupation">Occupation</label>
-                </div>
-            </div><!-- End of the second row -->
-        </div>
-    </section>
-    <!-- End of current address -->
-    <!-- Start of security question section -->
-    <section class="security_questions">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <div class="form-group">
-                        <h3>Select Security Question</h3>
-                        <select name="question" id="question" class="form-control custom-select-md">
-                            <option value="" disabled="disabled">Select A Security Question </option>
-                            <option value="Q2">What are your daily news checks?</option>
-                            <option value="Q3">What was the color of your first car?</option>
-                            <option value="Q4">What was your first school?</option>
-                            <option value="Q5">What was your first pet's name?</option>
-                        </select>
+                    <div class="col-lg-5"> <label for="lname">First name</label>
+                        <input type="text" id="lname" class="form-control form-control-lg"
+                            placeholder="Last Name.  ex. Owdel">
+                    </div>
+                </div> <!-- End of the first row-->
+                <!-- Start of the second row -->
+                <div class="row">
+                    <div class="col-lg-5">
+                        <label for="DOB">DOB</label>
+                        <input type="text" id="dof" class="form-control form-control-lg"
+                            placeholder="Date of Birth. ex. 6/21/1986">
+                    </div>
+                    <div class="col-lg-5"> <label for="SSN">SSN</label>
+                        <input type="text" id="ssn" class="form-control form-control-lg"
+                            placeholder="SSN #. ex. 487-98-6789">
+                        <!-- </div> -->
+                    </div>
+                </div><!-- End of the second row -->
+                <!-- Start of the third row -->
+                <div class="row">
+                    <div class="col-lg-5"> <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control form-control-lg"
+                            placeholder="Email Address. ex. example@gmail.com">
+                    </div>
+                    <div class="col-lg-5"> <label for="phone">Phone Number</label>
+                        <input type="text" id="dof" class="form-control form-control-lg"
+                            placeholder="Phone Number. ex. 802-978-4578">
+                    </div>
+                </div> <!-- End of the third row -->
+                <hr>
+            </div>
+        </section>
+        <!-- End of Input Form section -->
+        <!-- Start of current address -->
+        <section class="current_address">
+            <div class="container">
+                <h3>Current Address</h3>
+                <div class="row">
+                    <div class="col-lg-5"> <label for="street">Street</label>
+                        <input type="text" id="fname" class="form-control form-control-lg"
+                            placeholder="Street. ex. 1 Main Street">
+                    </div>
+                    <div class="col-lg-2"> <label for="apt">Apt Number</label>
+                        <input type="text" id="lname" class="form-control form-control-lg" placeholder="Apt #. ex. 3C">
+                    </div>
+                </div> <!-- End of the first row-->
+                <!-- Start of the second row -->
+                <div class="row">
+                    <div class="col-lg-3"> <label for="city">City</label>
+                        <input type="text" id="city" class="form-control form-control-lg"
+                            placeholder="City. ex. Colchester">
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="md-form"> <label for="state">State</label>
+                            <input type="text" id="dof" class="form-control form-control-lg"
+                                placeholder="State. ex. VT">
+                        </div>
+                    </div>
+                    <div class="col-lg-2"><label for="zip">Zip Code</label>
+                        <input type="text" id="dof" class="form-control form-control-lg"
+                            placeholder="Zip Code. ex. 05784">
+                    </div>
+                    <div class="col-lg-10"><label for="occupation">Occupation</label>
+                        <input type="text" name="occupation" class="form-control form-control-lg"
+                            placeholder="Occupation. ex. Accountant">
+                    </div>
+                </div><!-- End of the second row -->
+            </div>
+        </section>
+        <!-- End of current address -->
+        <!-- Start of security question section -->
+        <section class="security_questions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <h3>Select Security Question</h3>
+                            <select name="question" id="question" class="form-control custom-select-md">
+                                <option value="" disabled="disabled">Select A Security Question </option>
+                                <option value="Q2">What are your daily news checks?</option>
+                                <option value="Q3">What was the color of your first car?</option>
+                                <option value="Q4">What was your first school?</option>
+                                <option value="Q5">What was your first pet's name?</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End of security question section -->
-    <!-- Start of account type -->
-    <section class="account_type">
-        <div class="container">
-            <hr>
-            <div class="row">
-                <h3>Account Type</h3>
-                <div class="col-md-12">
-                    <div class="form-check form-check-block">
-                        <input class="form-check-input" type="radio" name="accounts" id="saving" value="1">
-                        <label class="form-check-label"><b class="text-dark">Saving</b></label>
-                    </div>
-                    <div class="form-check form-check-block">
-                        <input class="form-check-input" type="radio" name="accounts" id="checking" value="2">
-                        <label class="form-check-label"><b class="text-dark">Checking</b></label>
-                    </div>
-                    <div class="form-check form-check-block">
-                        <input class="form-check-input" type="radio" name="accounts" id="credit" value="3">
-                        <label class="form-check-label"><b class="text-dark">credit Card</b></label>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
+        </section>
+        <!-- End of security question section -->
+        <!-- Start of account type -->
+        <section class="account_type">
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <h3>Account Type</h3>
+                    <div class="col-md-12">
+                        <div class="form-check form-check-block">
+                            <input class="form-check-input" type="radio" name="accounts" id="saving" value="1">
+                            <label class="form-check-label"><b class="text-dark">Saving</b></label>
                         </div>
-                    </div>
-    </section>
-
-</form>
+                        <div class="form-check form-check-block">
+                            <input class="form-check-input" type="radio" name="accounts" id="checking" value="2">
+                            <label class="form-check-label"><b class="text-dark">Checking</b></label>
+                        </div>
+                        <div class="form-check form-check-block">
+                            <input class="form-check-input" type="radio" name="accounts" id="credit" value="3">
+                            <label class="form-check-label"><b class="text-dark">credit Card</b></label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
+                            </div>
+                        </div>
+        </section>
+    </form>
     <!-- End of account type -->
     <section class="footer">
         <div class="container">
