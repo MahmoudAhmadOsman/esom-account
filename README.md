@@ -10,7 +10,7 @@ $ git clone https://mahmoudahmadosman.github.io/esom-account/
 
  
 ### Note: 
-Visit this link: [mahmoudahmadosman.github.io/esom-account](https://mahmoudahmadosman.github.io/esom-account/)
+Visit this link: [esom-account](https://mahmoudahmadosman.github.io/esom-account/)
  
 
 
